@@ -1,0 +1,141 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 200px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #f7d3e8;
+    width: 100%;
+    height: 150px;
+}
+
+#inicial {
+    margin: 50px;
+    background-color: #dc4685;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 80px;
+    
+
+
+
+}
+
+#personagens {
+
+    margin: 50px;
+    background-color: #dc4685;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 80px;
+}
+
+
+#filmes {
+    margin: 50px;
+    background-color: #dc4685;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 80px;
+}
+
+body {
+    background-color: #f6b7db;
+}
+
+.container {
+    background-color: #f6b7db;
+    margin-top: 30px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 50px;
+}
+
+
+
+.personagensss {
+    display: flex;
+    background-color: #a595c3;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 5px #fffaf5;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portia {
+    width: 350px;
+    height: 350px;
+    border-radius: 48% 29% 71% / 40% 45% 55% 60%;
+
+}
+
+#blair {
+    width: 350px;
+    height: 350px;
+    border-radius: 48% 29% 71% / 40% 45% 55% 60%;
+}
+
+#dame {
+    width: 350px;
+    height: 350px;
+    border-radius: 48% 29% 71% / 40% 45% 55% 60%;
+}
+
+h4 {
+    color: #f7d3e8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+    
+}
+
+p {
+    color: #f7d3e8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: #dc4685;
+    border-radius: 25px;
+    justify-content: space-around;
+    text-align: center;
+    width: 150px;
+}
+
+.fotos {
+    width: 300px;
+    height: 350px;
+    border-radius: 48% 29% 71% / 40% 45% 55% 60%;
+}
+
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: #a595c3;
+    color: #c00070;
+    text-align: center;
+    padding-top: 50px
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+
+}
